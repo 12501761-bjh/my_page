@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+
+    /* TIP : height, background-color는 체크용 */
+    /* height: 500px; */
+    /* background-color: aquamarine; */
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+}
+
+.home-main {
+
+}
+
+.about-main {
+
+}
+
+.project-main {
+
+}
+
+.blogs-main {
+
+}
+
+.contact-main {
+
+}
+
+.footer {
+
+}
