@@ -1,5 +1,13 @@
-body {
+div {
+    box-sizing: border-box;
+}
+
+body, h4 {
     margin: 0px;
+}
+
+html {
+    line-height: 1.15;
 }
 
 .container {
@@ -13,11 +21,11 @@ body {
 .header {
     width: 100%;
     height: 60px;
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 .home-main {
-
+    
 }
 
 .about-main {
