@@ -1,9 +1,13 @@
+@font-face {
+    font-family: "Stack Sans Text";
+}
+
 div {
     box-sizing: border-box;
 }
 
-body, h4 {
-    margin: 0px;
+body, nav, h1, h2, h3, h4 {
+    margin: 0;
 }
 
 html {
@@ -20,27 +24,97 @@ html {
 
 .header {
     width: 100%;
-    height: 60px;
-    /* background-color: blue; */
+    height: max-content;
+    position: fixed;
+    top: 0px;
+
+    background-color: #eee;
 }
 
-.home-main {
+.nav-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Stack Sans Text";
+    font-weight: 700;
+    font-size: 20px;
+
+    text-align: center;
     
 }
 
-.about-main {
+.nav-item {
+    width: max-content;
+    height: max-content;
+    margin-right: 16px;
+
+    /* background-color: grey; */
+}
+
+#nav-menu {
+    font-weight: 400;
+}
+
+
+.home-main {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: grey;
+    align-items: center;
 
 }
 
-.project-main {
+.home-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-title-text {
+    text-align: center;
+}
+
+.home-top-button {
+
+}
+
+.home-bottom-button {
+
+}
+
+.about-main {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: blue;
+}
+
+.projects-main {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: grey;
 
 }
 
 .blogs-main {
+    width: 100vw;
+    height: 100vh;
 
+    background-color: blue;
 }
 
 .contact-main {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: grey;
+}
+
+.contact-item {
 
 }
 
